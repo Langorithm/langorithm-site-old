@@ -1,0 +1,1 @@
+import{cs as n}from"./vendor-gscuA0zO.js";function o(e){n.useEffect(()=>{const t=s=>{if(s.data.type==="eval"){const a=s.data.body;e(a)}};return window.addEventListener("message",t),()=>{window.removeEventListener("message",t)}},[e])}export{o as u};

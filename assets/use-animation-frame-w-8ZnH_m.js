@@ -1,1 +1,0 @@
-import{cs as t}from"./vendor-Q-ylIjZh.js";function u(n){const e=t.useRef(),r=t.useCallback(a=>{n(a),e.current=requestAnimationFrame(r)},[n]);t.useEffect(()=>(e.current=requestAnimationFrame(r),()=>{cancelAnimationFrame(e.current)}),[r])}export{u};
