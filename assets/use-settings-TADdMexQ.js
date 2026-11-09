@@ -1,1 +1,0 @@
-import{cs as n}from"./vendor-vrl6ecgd.js";function a(e){n.useEffect(()=>{const t=s=>{s.data.type==="settings"&&e(s.data.body)};return window.addEventListener("message",t),()=>{window.removeEventListener("message",t)}},[e])}export{a as u};
